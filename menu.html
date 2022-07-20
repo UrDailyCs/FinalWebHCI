@@ -1,0 +1,469 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="shortcut icon" href="./favicon.ico" type="image/x-icon" />
+    <script src="https://code.jquery.com/jquery-3.5.1.js"></script>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="./fontawesome-free-5.12.1-web/css/all.min.css"
+    />
+    <script src="js/app.js" async defer></script>
+    <title>Menu Food</title>
+  </head>
+  <body>
+    <nav class="navbar">
+      <div class="nav-center">
+        <!-- nav header -->
+        <div class="nav-header">
+          <img class="logo" src="./assets/logo.png" alt="LOGO" />
+
+          <button type="button" class="nav-btn" id="nav-btn">
+            <i class="fas fa-bars"></i>
+          </button>
+        </div>
+        <!-- end of nav header -->
+
+        <!-- nav-links -->
+        <ul class="nav-links" id="nav-links">
+          <li>
+            <a href="./index.html" class="nav-link">Home</a>
+          </li>
+          <!-- end of single link -->
+          <!-- single link -->
+          <li class="menu-main">
+            <a class="nav-link">Menu</a>
+            <!-- Menu dropdown -->
+            <ul class="menu-dropdown" id="menu-dropdown">
+              <li>
+                <a href="./menu.html#main" class="nav-link">Main-course</a>
+              </li>
+              <li>
+                <a href="./menu.html#drink" class="nav-link">Drink</a>
+              </li>
+              <li>
+                <a href="./menu.html#dessert" class="nav-link">Dessert</a>
+              </li>
+            </ul>
+            <!-- end of menu dropdown -->
+          </li>
+          <!-- end of single link -->
+          <!-- single link -->
+          <li>
+            <a href="./aboutUs.html" class="nav-link">About us</a>
+          </li>
+          <!-- end of single link -->
+          <!-- single link -->
+          <li>
+            <a href="./location.html" class="nav-link">Location</a>
+          </li>
+          <!-- end of single link -->
+          <!-- single link -->
+          <li>
+            <a href="./contact_us.html" class="nav-link">contact us</a>
+          </li>
+          <!-- end of single link -->
+        </ul>
+        <!-- end of nav-links -->
+      </div>
+    </nav>
+    <!-- end of Nav -->
+
+    <section class="banner-menu">
+      <div class="image-slider">
+        <img src="./assets/banner.png" class="slider slider1 active" />
+        <img src="./assets/Dessert1.png" class="slider slider2" />
+        <img src="./assets/Food4DanBamNew.png" class="slider slider3" />
+        <img src="./assets/Drink1DanBamNew.png" class="slider slider4" />
+        <img src="./assets/Food1.png" class="slider slider5" />
+        <div class="slider-key">
+          <button id="key1">
+            <i class="fas fa-circle key key1 active-key"></i>
+          </button>
+          <button id="key2"><i class="fas fa-circle key"></i></button>
+          <button id="key3"><i class="fas fa-circle key"></i></button>
+          <button id="key4"><i class="fas fa-circle key"></i></button>
+          <button id="key5"><i class="fas fa-circle key"></i></button>
+        </div>
+      </div>
+    </section>
+
+    <section class="section main-course" id="main">
+      <div class="section-title">
+        <h2>Main <span>Course</span></h2>
+      </div>
+
+      <div class="section-center main-course-menu">
+        <!-- Single menu -->
+
+        <article class="menu">
+          <div class="img-menu-container">
+            <img src="./assets/Food1.png" alt="" class="img-menu" />
+          </div>
+          <div class="menu-desc">
+            <h3>Dakgangjeong</h3>
+            <p>Deep fried chicken with sesame</p>
+            <div class="menu-footer">
+              <p class="menu-price">Rp 25000</p>
+              <button class="order">order</button>
+            </div>
+          </div>
+        </article>
+        <!-- End of single menu -->
+        <!-- Single menu -->
+
+        <article class="menu">
+          <div class="img-menu-container">
+            <img src="./assets/Food2.png" alt="" class="img-menu" />
+          </div>
+          <div class="menu-desc">
+            <h3>Jjampong</h3>
+            <p>Signature Korean noodle soup with best Ingredients</p>
+            <div class="menu-footer">
+              <p class="menu-price">Rp 35000</p>
+              <button class="order">order</button>
+            </div>
+          </div>
+        </article>
+        <!-- End of single menu -->
+        <!-- Single menu -->
+
+        <article class="menu">
+          <div class="img-menu-container">
+            <img src="./assets/Food3.png" alt="" class="img-menu" />
+          </div>
+          <div class="menu-desc">
+            <h3>Bulgogi</h3>
+            <p>
+              Marinated Beef slices with our secret recipe. 1 is never enough
+            </p>
+            <div class="menu-footer">
+              <p class="menu-price">Rp 35000</p>
+              <button class="order">order</button>
+            </div>
+          </div>
+        </article>
+        <!-- End of single menu -->
+        <!-- Single menu -->
+
+        <article class="menu">
+          <div class="img-menu-container">
+            <img src="./assets/Food4.png" alt="" class="img-menu" />
+          </div>
+          <div class="menu-desc">
+            <h3>Samgyetang</h3>
+            <p>Fried chicken with sesame</p>
+            <div class="menu-footer">
+              <p class="menu-price">Rp 35000</p>
+              <button class="order">order</button>
+            </div>
+          </div>
+        </article>
+        <!-- End of single menu -->
+        <article class="menu">
+          <div class="img-menu-container">
+            <img src="./assets/Food5.png" alt="" class="img-menu" />
+          </div>
+          <div class="menu-desc">
+            <h3>Bibimbap</h3>
+            <p>Fried chicken with sesame</p>
+            <div class="menu-footer">
+              <p class="menu-price">Rp 35000</p>
+              <button class="order">order</button>
+            </div>
+          </div>
+        </article>
+        <!-- End of single menu -->
+        <article class="menu">
+          <div class="img-menu-container">
+            <img src="./assets/Food6.png" alt="" class="img-menu" />
+          </div>
+          <div class="menu-desc">
+            <h3>Kimchi</h3>
+            <p>Traditional Korean food.</p>
+            <div class="menu-footer">
+              <p class="menu-price">Rp 35000</p>
+              <button class="order">order</button>
+            </div>
+          </div>
+        </article>
+        <!-- End of single menu -->
+      </div>
+    </section>
+    <!-- End of main course -->
+    <!-- Drink -->
+    <section class="section main-course" id="drink">
+      <div class="section-title">
+        <h2>Beverages</h2>
+      </div>
+
+      <div class="section-center main-course-menu">
+        <!-- Single menu -->
+
+        <article class="menu">
+          <div class="img-menu-container">
+            <img src="./assets/Drink1.png" alt="" class="img-menu" />
+          </div>
+          <div class="menu-desc">
+            <h3>Yuzu Cha</h3>
+            <p>We grow our own yuzu's seed in our garden</p>
+            <div class="menu-footer">
+              <p class="menu-price">Rp 15000</p>
+              <button class="order">order</button>
+            </div>
+          </div>
+        </article>
+        <!-- End of single menu -->
+        <!-- Single menu -->
+
+        <article class="menu">
+          <div class="img-menu-container">
+            <img src="./assets/Drink2.png" alt="" class="img-menu" />
+          </div>
+          <div class="menu-desc">
+            <h3>Banana Milk</h3>
+            <p>Fresh Banana with highest quality milk</p>
+            <div class="menu-footer">
+              <p class="menu-price">Rp 15000</p>
+              <button class="order">order</button>
+            </div>
+          </div>
+        </article>
+        <!-- End of single menu -->
+        <!-- Single menu -->
+
+        <article class="menu">
+          <div class="img-menu-container">
+            <img src="./assets/Drink3.png" alt="" class="img-menu" />
+          </div>
+          <div class="menu-desc">
+            <h3>Soju</h3>
+            <p>Special choice of Soju.. Warning 18+</p>
+            <div class="menu-footer">
+              <p class="menu-price">Rp 45000</p>
+              <button class="order">order</button>
+            </div>
+          </div>
+        </article>
+        <!-- End of single menu -->
+        <!-- Single menu -->
+
+        <article class="menu">
+          <div class="img-menu-container">
+            <img src="./assets/Drink4.png" alt="" class="img-menu" />
+          </div>
+          <div class="menu-desc">
+            <h3>Sujeonggwa</h3>
+            <p>Fried chicken with sesame</p>
+            <div class="menu-footer">
+              <p class="menu-price">Rp 35000</p>
+              <button class="order">order</button>
+            </div>
+          </div>
+        </article>
+        <!-- End of single menu -->
+        <article class="menu">
+          <div class="img-menu-container">
+            <img src="./assets/Drink5.png" alt="" class="img-menu" />
+          </div>
+          <div class="menu-desc">
+            <h3>Sikhye</h3>
+            <p>Sweet Korean rice beverage</p>
+            <div class="menu-footer">
+              <p class="menu-price">Rp 25000</p>
+              <button class="order">order</button>
+            </div>
+          </div>
+        </article>
+        <!-- End of single menu -->
+        <article class="menu">
+          <div class="img-menu-container">
+            <img src="./assets/Drink6.png" alt="" class="img-menu" />
+          </div>
+          <div class="menu-desc">
+            <h3>Omija Tea</h3>
+            <p>Fried chicken with sesame</p>
+            <div class="menu-footer">
+              <p class="menu-price">Rp 25000</p>
+              <button class="order">order</button>
+            </div>
+          </div>
+        </article>
+        <!-- End of single menu -->
+      </div>
+    </section>
+
+    <!-- Dessert -->
+    <section class="section main-course" id="dessert">
+      <div class="section-title">
+        <h2>Dessert</h2>
+      </div>
+
+      <div class="section-center main-course-menu">
+        <!-- Single menu -->
+
+        <article class="menu">
+          <div class="img-menu-container">
+            <img src="./assets/Dessert1.png" alt="" class="img-menu" />
+          </div>
+          <div class="menu-desc">
+            <h3>Hotteok</h3>
+            <p>Fried chicken with sesame</p>
+            <div class="menu-footer">
+              <p class="menu-price">Rp 10000</p>
+              <button class="order">order</button>
+            </div>
+          </div>
+        </article>
+        <!-- End of single menu -->
+        <!-- Single menu -->
+
+        <article class="menu">
+          <div class="img-menu-container">
+            <img src="./assets/Dessert2.png" alt="" class="img-menu" />
+          </div>
+          <div class="menu-desc">
+            <h3>Pajeon</h3>
+            <p>Fried chicken with sesame</p>
+            <div class="menu-footer">
+              <p class="menu-price">Rp 20000</p>
+              <button class="order">order</button>
+            </div>
+          </div>
+        </article>
+        <!-- End of single menu -->
+        <!-- Single menu -->
+
+        <article class="menu">
+          <div class="img-menu-container">
+            <img src="./assets/Dessert3.png" alt="" class="img-menu" />
+          </div>
+          <div class="menu-desc">
+            <h3>Gyeran Mari</h3>
+            <p>Fried chicken with sesame</p>
+            <div class="menu-footer">
+              <p class="menu-price">Rp 25000</p>
+              <button class="order">order</button>
+            </div>
+          </div>
+        </article>
+        <!-- End of single menu -->
+        <!-- Single menu -->
+
+        <article class="menu">
+          <div class="img-menu-container">
+            <img src="./assets/Dessert4.png" alt="" class="img-menu" />
+          </div>
+          <div class="menu-desc">
+            <h3>Songpyeon</h3>
+            <p>Fried chicken with sesame</p>
+            <div class="menu-footer">
+              <p class="menu-price">Rp 30000</p>
+              <button class="order">order</button>
+            </div>
+          </div>
+        </article>
+        <!-- End of single menu -->
+        <article class="menu">
+          <div class="img-menu-container">
+            <img src="./assets/Dessert5.png" alt="" class="img-menu" />
+          </div>
+          <div class="menu-desc">
+            <h3>Gaeran Bbang</h3>
+            <p>Sweet Egg Bread</p>
+            <div class="menu-footer">
+              <p class="menu-price">Rp 45000</p>
+              <button class="order">order</button>
+            </div>
+          </div>
+        </article>
+        <!-- End of single menu -->
+        <article class="menu">
+          <div class="img-menu-container">
+            <img src="./assets/Dessert6.png" alt="" class="img-menu" />
+          </div>
+          <div class="menu-desc">
+            <h3>Omlet Bbang</h3>
+            <p>Small sandwitch stuffed with fruits</p>
+            <div class="menu-footer">
+              <p class="menu-price">Rp 55000</p>
+              <button class="order">order</button>
+            </div>
+          </div>
+        </article>
+        <!-- End of single menu -->
+      </div>
+    </section>
+
+    <!-- footer -->
+    <footer class="section footer">
+      <div class="footer-links">
+        <ul>
+          <li>
+            <a href="./index.html" class="footer-link">Home</a>
+          </li>
+          <!-- end of single link -->
+          <!-- single link -->
+          <li>
+            <a href="./aboutUs.html" class="footer-link">About us</a>
+          </li>
+          <!-- end of single link -->
+          <!-- single link -->
+          <li>
+            <a href="./location.html" class="footer-link">Location</a>
+          </li>
+          <!-- end of single link -->
+          <!-- single link -->
+          <li>
+            <a href="./contact_us.html" class="footer-link">contact us</a>
+          </li>
+          <!-- end of single link -->
+        </ul>
+        <ul>
+          <li class="footer-link">See Our Menu</li>
+          <!-- single link -->
+          <li>
+            <a href="./main.html" class="footer-link">Main-course</a>
+          </li>
+          <li>
+            <a href="./index.html" class="footer-link">Drink</a>
+          </li>
+          <li>
+            <a href="./index.html" class="footer-link">Dessert</a>
+          </li>
+          <!-- end of single link -->
+        </ul>
+      </div>
+      <div>
+        <h3 class="footer-desc">
+          Copyright &copy; DanBam.Co Ltd. Since 2020 <br />
+          All Right Reserved
+        </h3>
+      </div>
+      <div class="footer-icons">
+        <div class="footer-icon">
+          <a
+            href="https://www.facebook.com/pages/Bornga%20%EB%B3%B8%EA%B0%80/328662421272423/"
+            target="_blank"
+          >
+            <span> <i class="fab fa-facebook logo-footer"></i></span
+          ></a>
+          <a href="https://www.instagram.com/bornga.indonesia/" target="_blank">
+            <span> <i class="fab fa-instagram logo-footer"></i></span
+          ></a>
+          <a href="https://www.youtube.com/watch?v=o6kKHm0UA50" target="_blank">
+            <span> <i class="fab fa-youtube logo-footer"></i></span
+          ></a>
+        </div>
+        <div class="newsletter">
+          <h4>Want to subscribe to our newsletter?</h4>
+          <input type="text" placeholder="Email" />
+          <button class="btn-subs">Subscribe</button>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>

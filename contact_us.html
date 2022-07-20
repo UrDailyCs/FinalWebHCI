@@ -1,0 +1,237 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="./fontawesome-free-5.12.1-web/css/all.min.css"
+    />
+    <link rel="shortcut icon" href="./favicon.ico" type="image/x-icon" />
+    <script src="js/validation.js" async defer></script>
+    <title>Contact Us</title>
+  </head>
+  <body>
+    <!-- Nav Bar -->
+
+    <nav class="navbar">
+      <div class="nav-center">
+        <!-- nav header -->
+        <div class="nav-header">
+          <img class="logo" src="./assets/logo.png" alt="LOGO" />
+
+          <button type="button" class="nav-btn" id="nav-btn">
+            <i class="fas fa-bars"></i>
+          </button>
+        </div>
+        <!-- end of nav header -->
+
+        <!-- nav-links -->
+        <ul class="nav-links" id="nav-links">
+          <li>
+            <a href="./index.html" class="nav-link">Home</a>
+          </li>
+          <!-- end of single link -->
+          <!-- single link -->
+          <li class="menu-main">
+            <a href="./menu.html" class="nav-link">Menu</a>
+            <!-- Menu dropdown -->
+            <ul class="menu-dropdown" id="menu-dropdown">
+              <li>
+                <a href="./menu.html#main" class="nav-link">Main-course</a>
+              </li>
+              <li>
+                <a href="./menu.html#drink" class="nav-link">Drink</a>
+              </li>
+              <li>
+                <a href="./menu.html#dessert" class="nav-link">Dessert</a>
+              </li>
+            </ul>
+            <!-- end of menu dropdown -->
+          </li>
+          <!-- end of single link -->
+          <!-- single link -->
+          <li>
+            <a href="./aboutUs.html#" class="nav-link">About us</a>
+          </li>
+          <!-- end of single link -->
+          <!-- single link -->
+          <li>
+            <a href="./location.html" class="nav-link">Location</a>
+          </li>
+          <!-- end of single link -->
+          <!-- single link -->
+          <li>
+            <a href="./contact_us.html" class="nav-link">contact us</a>
+          </li>
+          <!-- end of single link -->
+        </ul>
+        <!-- end of nav-links -->
+      </div>
+    </nav>
+
+    <!-- end of Nav -->
+
+    <!-- <div class="banner"></div> -->
+
+    <!-- Form -->
+
+    <section class="section contact-us">
+      <div class="section-title">
+        <h2>Get in Touch <span> With Us</span></h2>
+      </div>
+
+      <form action="#" method="POST" id="contact-form" class="contact-form">
+        <h3>Fill This Form</h3>
+        <div class="form-group">
+          <div class="form">
+            <label for="form-name"> Your Name </label>
+            <input
+              type="text"
+              placeholder="name"
+              id="form-name"
+              name="form-name"
+              class="form-input"
+            />
+          </div>
+
+          <div class="form">
+            <label for="form-email"> Your Email </label>
+            <input
+              type="text"
+              placeholder="abcd@mail.com"
+              id="form-email"
+              name="form-email"
+              class="form-input"
+            />
+          </div>
+
+          <div class="form">
+            <label for="form-gender"> Your Gender </label>
+            <div class="option form-input">
+              <input
+                type="radio"
+                name="form-gender"
+                id="form-gender"
+                value="Female"
+              />
+              <label for="">Female</label>
+              <input
+                type="radio"
+                name="form-gender"
+                id="form-gender"
+                value="Male"
+              />
+              <label for="">Male</label>
+            </div>
+          </div>
+
+          <div class="form">
+            <label for="">Choose branch</label>
+            <select name="branch" id="branch" class="form-input">
+              <option value="">Choose location</option>
+              <option value="tangcity">Tangcity</option>
+              <option value="Lippo">Lippo mall Karawaci</option>
+              <option value="Alsut">Alam Sutera</option>
+              <option value="LivingWorld">Living World</option>
+            </select>
+          </div>
+
+          <div class="form">
+            <label for="feedback"> Feedback</label>
+            <input
+              type="textarea"
+              placeholder="Your message for us"
+              id="feedback"
+              name="feedback"
+              class="form-input textbox"
+            />
+          </div>
+          <div class="tos">
+            <input type="checkbox" name="tos" id="tos" />
+            <label for="tos"> I Agree with Terms of Service</label>
+          </div>
+
+          <!-- Single form -->
+          <div class="form form-submit">
+            <input type="submit" value="submit" class="form-submit" />
+          </div>
+          <!-- End Of Single Form -->
+        </div>
+        <!-- END of form group -->
+      </form>
+    </section>
+
+    <!-- footer -->
+    <footer class="section footer">
+      <div class="footer-links">
+        <ul>
+          <li>
+            <a href="./index.html" class="footer-link">Home</a>
+          </li>
+          <!-- end of single link -->
+          <!-- single link -->
+          <li>
+            <a href="./aboutUs.html" class="footer-link">About us</a>
+          </li>
+          <!-- end of single link -->
+          <!-- single link -->
+          <li>
+            <a href="./location.html" class="footer-link">Location</a>
+          </li>
+          <!-- end of single link -->
+          <!-- single link -->
+          <li>
+            <a href="./contact_us.html" class="footer-link">contact us</a>
+          </li>
+          <!-- end of single link -->
+        </ul>
+        <ul>
+          <li class="footer-link">See Our Menu</li>
+          <!-- single link -->
+          <li>
+            <a href="./main.html" class="footer-link">Main-course</a>
+          </li>
+          <li>
+            <a href="./index.html" class="footer-link">Drink</a>
+          </li>
+          <li>
+            <a href="./index.html" class="footer-link">Dessert</a>
+          </li>
+          <!-- end of single link -->
+        </ul>
+      </div>
+      <div>
+        <h3 class="footer-desc">
+          Copyright &copy; DanBam.Co Ltd. Since 2020 <br />
+          All Right Reserved
+        </h3>
+      </div>
+      <div class="footer-icons">
+        <div class="footer-icon">
+          <a
+            href="https://www.facebook.com/pages/Bornga%20%EB%B3%B8%EA%B0%80/328662421272423/"
+            target="_blank"
+          >
+            <span> <i class="fab fa-facebook logo-footer"></i></span
+          ></a>
+          <a href="https://www.instagram.com/bornga.indonesia/" target="_blank">
+            <span> <i class="fab fa-instagram logo-footer"></i></span
+          ></a>
+          <a href="https://www.youtube.com/watch?v=o6kKHm0UA50" target="_blank">
+            <span> <i class="fab fa-youtube logo-footer"></i></span
+          ></a>
+        </div>
+        <div class="newsletter">
+          <h4>Want to subscribe to our newsletter?</h4>
+          <input type="text" placeholder="Email" />
+          <button class="btn-subs">Subscribe</button>
+        </div>
+      </div>
+    </footer>
+
+    <script src="js/app.js" async defer></script>
+  </body>
+</html>
